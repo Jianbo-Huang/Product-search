@@ -45,7 +45,6 @@ There is no installation needed to build the tool, no external dependances are n
               qsearch  data-file-name
       if  qsearch is set in the search path.  Once the search system is build,
       you can just type the search words. A typical example is given below:
- 
 threads available:4
 m:6
 Building search system, please wait.....
@@ -159,6 +158,11 @@ ipad mini, this is obviously not what the client wants. Some common descriptive 
      In this query, the only relevant words are apple, iphone. The rest are all
      redundant, and should be removed from the search. This functionality has been implemented
      in the current search tool.
+     
+ # Sample data
+ 
+   A sample data file named products.csv.gz is included. This file can be used to test the tool.
+   You may replace your own data file with the same format and use this tool for searching.
 
 
 
